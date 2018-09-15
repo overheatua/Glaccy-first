@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  background: #849d8f url("../img/slider1.png") no-repeat center top;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffbc9e;
+}
+
+a:active {
+  color: #ffbc9e;
+}
+
+.index-logo {
+  padding: 9px;
+}
+
+.main-nav {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

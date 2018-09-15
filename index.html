@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>Gllacy Shop</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -14,7 +17,7 @@
       </a>
       <ul class="site-nav">
         <li class="nav-item">
-          <button type="button" name="button">Каталог</button>
+          <button type="button">Каталог</button>
         </li>
         <li class="nav-item">
           <a href="#">Доставка и оплата</a>
@@ -33,7 +36,6 @@
           </div>
         </li>
         <li class="user-nav-item">
-          <img src="img/enter-icon.svg" alt="Вход">
           <button class="login" type="button" name="button">Вход</button>
           <div class="modal-login-form">
             <form action="post">
@@ -50,16 +52,12 @@
           </div>
         </li>
         <li class="user-nav-item">
-          <a href="#" class="basket">
-            <img src="img/basket-icon.svg" alt="Иконка корзины">
-            Пусто
-          </a>
+          <button type="button" name="button">Пусто</button>          
         </li>
       </ul>
     </nav>
     <div class="contact">
-      <span>
-        С 10 до 20, ежедневно<br>
+      <span>С 10 до 20, ежедневно<br>
         8 812 450-25-25
       </span>
     </div>
@@ -140,19 +138,20 @@
     </section>
     <div class="con">
       <article class="news">
-        <span>Новое в нашем блоге</span>
+        <h2>Новое в нашем блоге</h2>
         <br>
         <a href="#">10 способов сервировки<br> фруктовых щербетов <br>к столу</a>
       </article>
-      <div class="subscribe">
+      <section class="subscribe">
+        <h2 class="visually-hidden">Подписка на нашу рассылку</h2>
         <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
         <form>
           <input type="text" name="e-mail" placeholder="Электронная почта">
           <button class="btn" type="submit">Отправить</button>
         </form>
-      </div>
+      </section>
     </div>
-    <div class="map-canvas">
+    <section class="map-canvas">
       <div id="map"></div>
       <div class="contact-us">
         <p>Адрес главного офиса и
@@ -163,7 +162,7 @@
           <p>(с 10 до 20 ежедневно)</p>
           <button class="btn" href="#">Форма обратной связи</button>
       </div>
-    </div>
+    </section>
   </main>
   <footer class="main-footer">
     <div class="container">
@@ -176,7 +175,7 @@
       </section>
       <section class="footer-nav">
         <div class="footer-nav-col1">
-          <img src="img/heart-icon.svg" alt="heart" /><a href="#"><b>Для поставщиков</b></a>
+          <a href="#"><b>Для поставщиков</b></a>
           <a href="#">Наши документы</a>
         </div>
         <div class="footer-nav-col2">
