@@ -253,7 +253,7 @@ input[type=search]:focus {
 
 .dropdown-menu-catalog li:first-child {
   position: relative;
-  height: 38px;
+  min-height: 38px;
   margin-bottom: 5px;
 }
 
@@ -602,9 +602,10 @@ input[type=search]:focus {
   text-align: right;
 }
 
-.contact span {
+.contact__user-phone {
   font-size: 22px;
   line-height: 24px;
+  text-decoration: none;
 }
 
 /* MAIN content */
@@ -726,6 +727,7 @@ input[type=search]:focus {
   padding: 20px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  border-radius: 15px;
 }
 
 .hits__item h2 {
@@ -748,11 +750,11 @@ input[type=search]:focus {
 }
 
 .hits__item-left {
-  background: url("../img/item-left-bg.png") no-repeat;
+  background: url("../img/item-left-bg.png");
 }
 
 .hits__item-right {
-  background: url("../img/item-right-bg.png") no-repeat;
+  background: url("../img/item-right-bg.png");
 }
 
 .options {
@@ -816,8 +818,9 @@ input[type=search]:focus {
   align-content: start;
   padding: 25px 20px;
   min-height: 306px;
-  background: url("../img/about-us-bg.png") no-repeat;
+  background: url("../img/about-us-bg.jpg");
   margin-bottom: 40px;
+  border-radius: 15px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
