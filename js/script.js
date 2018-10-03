@@ -18,7 +18,7 @@ var link = document.querySelector(".contact-link");
 var modal = document.querySelector(".modal-contact-form");
 var close = document.querySelector(".modal-contact-form .close-btn");
 var overlay = document.querySelector(".modal-overlay");
-var firstName = modal.querySelector("[name=first-name]");
+var firstName = modal.querySelector("#first-name");
 
 link.addEventListener("click", function (evt) {
   evt.preventDefault();
